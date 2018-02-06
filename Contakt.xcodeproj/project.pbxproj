@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DA31B6772029A98A00BDDA67 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA31B6762029A98A00BDDA67 /* AppDelegate.swift */; };
+		DA31B6792029A98A00BDDA67 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA31B6782029A98A00BDDA67 /* ViewController.swift */; };
+		DA31B67C2029A98A00BDDA67 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA31B67A2029A98A00BDDA67 /* Main.storyboard */; };
+		DA31B67E2029A98A00BDDA67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA31B67D2029A98A00BDDA67 /* Assets.xcassets */; };
+		DA31B6812029A98A00BDDA67 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA31B67F2029A98A00BDDA67 /* LaunchScreen.storyboard */; };
+		DA31B68C2029A98A00BDDA67 /* ContaktTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA31B68B2029A98A00BDDA67 /* ContaktTests.swift */; };
+		DA31B6972029A98A00BDDA67 /* ContaktUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA31B6962029A98A00BDDA67 /* ContaktUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DA31B6882029A98A00BDDA67 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA31B66B2029A98A00BDDA67 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA31B6722029A98A00BDDA67;
+			remoteInfo = Contakt;
+		};
+		DA31B6932029A98A00BDDA67 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA31B66B2029A98A00BDDA67 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA31B6722029A98A00BDDA67;
+			remoteInfo = Contakt;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DA31B6732029A98A00BDDA67 /* Contakt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Contakt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA31B6762029A98A00BDDA67 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DA31B6782029A98A00BDDA67 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DA31B67B2029A98A00BDDA67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DA31B67D2029A98A00BDDA67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DA31B6802029A98A00BDDA67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DA31B6822029A98A00BDDA67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA31B6872029A98A00BDDA67 /* ContaktTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContaktTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA31B68B2029A98A00BDDA67 /* ContaktTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContaktTests.swift; sourceTree = "<group>"; };
+		DA31B68D2029A98A00BDDA67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA31B6922029A98A00BDDA67 /* ContaktUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContaktUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA31B6962029A98A00BDDA67 /* ContaktUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContaktUITests.swift; sourceTree = "<group>"; };
+		DA31B6982029A98B00BDDA67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA31B6702029A98A00BDDA67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA31B6842029A98A00BDDA67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA31B68F2029A98A00BDDA67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DA31B66A2029A98A00BDDA67 = {
+			isa = PBXGroup;
+			children = (
+				DA31B6752029A98A00BDDA67 /* Contakt */,
+				DA31B68A2029A98A00BDDA67 /* ContaktTests */,
+				DA31B6952029A98A00BDDA67 /* ContaktUITests */,
+				DA31B6742029A98A00BDDA67 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DA31B6742029A98A00BDDA67 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA31B6732029A98A00BDDA67 /* Contakt.app */,
+				DA31B6872029A98A00BDDA67 /* ContaktTests.xctest */,
+				DA31B6922029A98A00BDDA67 /* ContaktUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA31B6752029A98A00BDDA67 /* Contakt */ = {
+			isa = PBXGroup;
+			children = (
+				DA31B6762029A98A00BDDA67 /* AppDelegate.swift */,
+				DA31B6782029A98A00BDDA67 /* ViewController.swift */,
+				DA31B67A2029A98A00BDDA67 /* Main.storyboard */,
+				DA31B67D2029A98A00BDDA67 /* Assets.xcassets */,
+				DA31B67F2029A98A00BDDA67 /* LaunchScreen.storyboard */,
+				DA31B6822029A98A00BDDA67 /* Info.plist */,
+			);
+			path = Contakt;
+			sourceTree = "<group>";
+		};
+		DA31B68A2029A98A00BDDA67 /* ContaktTests */ = {
+			isa = PBXGroup;
+			children = (
+				DA31B68B2029A98A00BDDA67 /* ContaktTests.swift */,
+				DA31B68D2029A98A00BDDA67 /* Info.plist */,
+			);
+			path = ContaktTests;
+			sourceTree = "<group>";
+		};
+		DA31B6952029A98A00BDDA67 /* ContaktUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DA31B6962029A98A00BDDA67 /* ContaktUITests.swift */,
+				DA31B6982029A98B00BDDA67 /* Info.plist */,
+			);
+			path = ContaktUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DA31B6722029A98A00BDDA67 /* Contakt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA31B69B2029A98B00BDDA67 /* Build configuration list for PBXNativeTarget "Contakt" */;
+			buildPhases = (
+				DA31B66F2029A98A00BDDA67 /* Sources */,
+				DA31B6702029A98A00BDDA67 /* Frameworks */,
+				DA31B6712029A98A00BDDA67 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Contakt;
+			productName = Contakt;
+			productReference = DA31B6732029A98A00BDDA67 /* Contakt.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DA31B6862029A98A00BDDA67 /* ContaktTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA31B69E2029A98B00BDDA67 /* Build configuration list for PBXNativeTarget "ContaktTests" */;
+			buildPhases = (
+				DA31B6832029A98A00BDDA67 /* Sources */,
+				DA31B6842029A98A00BDDA67 /* Frameworks */,
+				DA31B6852029A98A00BDDA67 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA31B6892029A98A00BDDA67 /* PBXTargetDependency */,
+			);
+			name = ContaktTests;
+			productName = ContaktTests;
+			productReference = DA31B6872029A98A00BDDA67 /* ContaktTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DA31B6912029A98A00BDDA67 /* ContaktUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA31B6A12029A98B00BDDA67 /* Build configuration list for PBXNativeTarget "ContaktUITests" */;
+			buildPhases = (
+				DA31B68E2029A98A00BDDA67 /* Sources */,
+				DA31B68F2029A98A00BDDA67 /* Frameworks */,
+				DA31B6902029A98A00BDDA67 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA31B6942029A98A00BDDA67 /* PBXTargetDependency */,
+			);
+			name = ContaktUITests;
+			productName = ContaktUITests;
+			productReference = DA31B6922029A98A00BDDA67 /* ContaktUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA31B66B2029A98A00BDDA67 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Orazkeldi Zhamalbekov";
+				TargetAttributes = {
+					DA31B6722029A98A00BDDA67 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					DA31B6862029A98A00BDDA67 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DA31B6722029A98A00BDDA67;
+					};
+					DA31B6912029A98A00BDDA67 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DA31B6722029A98A00BDDA67;
+					};
+				};
+			};
+			buildConfigurationList = DA31B66E2029A98A00BDDA67 /* Build configuration list for PBXProject "Contakt" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DA31B66A2029A98A00BDDA67;
+			productRefGroup = DA31B6742029A98A00BDDA67 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA31B6722029A98A00BDDA67 /* Contakt */,
+				DA31B6862029A98A00BDDA67 /* ContaktTests */,
+				DA31B6912029A98A00BDDA67 /* ContaktUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DA31B6712029A98A00BDDA67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA31B6812029A98A00BDDA67 /* LaunchScreen.storyboard in Resources */,
+				DA31B67E2029A98A00BDDA67 /* Assets.xcassets in Resources */,
+				DA31B67C2029A98A00BDDA67 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA31B6852029A98A00BDDA67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA31B6902029A98A00BDDA67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA31B66F2029A98A00BDDA67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA31B6792029A98A00BDDA67 /* ViewController.swift in Sources */,
+				DA31B6772029A98A00BDDA67 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA31B6832029A98A00BDDA67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA31B68C2029A98A00BDDA67 /* ContaktTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA31B68E2029A98A00BDDA67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA31B6972029A98A00BDDA67 /* ContaktUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DA31B6892029A98A00BDDA67 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA31B6722029A98A00BDDA67 /* Contakt */;
+			targetProxy = DA31B6882029A98A00BDDA67 /* PBXContainerItemProxy */;
+		};
+		DA31B6942029A98A00BDDA67 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA31B6722029A98A00BDDA67 /* Contakt */;
+			targetProxy = DA31B6932029A98A00BDDA67 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DA31B67A2029A98A00BDDA67 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA31B67B2029A98A00BDDA67 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DA31B67F2029A98A00BDDA67 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA31B6802029A98A00BDDA67 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DA31B6992029A98B00BDDA67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DA31B69A2029A98B00BDDA67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DA31B69C2029A98B00BDDA67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Contakt/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Oraz.Contakt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DA31B69D2029A98B00BDDA67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Contakt/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Oraz.Contakt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DA31B69F2029A98B00BDDA67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ContaktTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Oraz.ContaktTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Contakt.app/Contakt";
+			};
+			name = Debug;
+		};
+		DA31B6A02029A98B00BDDA67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ContaktTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Oraz.ContaktTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Contakt.app/Contakt";
+			};
+			name = Release;
+		};
+		DA31B6A22029A98B00BDDA67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ContaktUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Oraz.ContaktUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Contakt;
+			};
+			name = Debug;
+		};
+		DA31B6A32029A98B00BDDA67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ContaktUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Oraz.ContaktUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Contakt;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA31B66E2029A98A00BDDA67 /* Build configuration list for PBXProject "Contakt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA31B6992029A98B00BDDA67 /* Debug */,
+				DA31B69A2029A98B00BDDA67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA31B69B2029A98B00BDDA67 /* Build configuration list for PBXNativeTarget "Contakt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA31B69C2029A98B00BDDA67 /* Debug */,
+				DA31B69D2029A98B00BDDA67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA31B69E2029A98B00BDDA67 /* Build configuration list for PBXNativeTarget "ContaktTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA31B69F2029A98B00BDDA67 /* Debug */,
+				DA31B6A02029A98B00BDDA67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA31B6A12029A98B00BDDA67 /* Build configuration list for PBXNativeTarget "ContaktUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA31B6A22029A98B00BDDA67 /* Debug */,
+				DA31B6A32029A98B00BDDA67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DA31B66B2029A98A00BDDA67 /* Project object */;
+}
